@@ -1,0 +1,161 @@
+.integrador-area {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.bloque {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-left: 5px solid #003366;
+}
+
+.bloque h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.combo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.combo-select {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #000000; /* Color del texto visible */
+  transition: border-color 0.3s;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Fondo de las opciones del combo */
+.combo-select option {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.combo-select:focus {
+  border-color: #003366;
+  outline: none;
+}
+
+.play-button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #001f4d;
+}
+
+/* Estilo base para mensaje flotante (posición y forma) */
+.mensaje-flotante {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Colores por tipo */
+.mensaje-flotante.exito {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.mensaje-flotante.error {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.mensaje-flotante.info {
+  background-color: #e7f3fe;
+  color: #31708f;
+  border-left: 6px solid #2196F3;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Mensaje fijo tipo alerta (NO position fixed) */
+.mensaje-fijo.alerta {
+  background-color: #fff3cd;
+  color: #664d03;
+  padding: 12px 18px;
+  border-radius: 6px;
+  border: 1px solid #ffeeba;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 20px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.btn-instrucciones {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.boton-instrucciones-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-instrucciones:hover {
+  background-color: #002244;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

@@ -1,0 +1,118 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #222;
+  font-weight: 600;
+}
+
+.process-table {
+  width: 100%;
+  border-collapse: separate; /* para que haya separación entre filas */
+  border-spacing: 0 8px; /* espacio vertical entre filas */
+  font-size: 0.95rem;
+  color: #444;
+  /* Suavizar el borde */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.process-table thead th {
+  background-color: #262c5f;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  user-select: none;
+}
+
+.process-table tbody tr {
+  background-color: #fefefe;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+  transition: background-color 0.2s ease;
+  border-radius: 8px;
+}
+
+.process-table tbody tr:hover {
+  background-color: #f0f4ff;
+}
+
+.process-table tbody td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  vertical-align: middle;
+  border: none; /* sin borde para un look limpio */
+  color: #555;
+  font-weight: 500;
+}
+
+.error {
+  color: #d9534f;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Mantengo los estilos para btn-icon del minimalismo */
+
+.btn-icon {
+  background: transparent;
+  border: none;
+  padding: 4px 6px;
+  margin: 0 4px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon:hover {
+  color: #0078d4;
+  background-color: rgba(0, 120, 212, 0.1);
+}
+
+.btn-icon:focus {
+  outline: 2px solid #0078d4;
+  outline-offset: 2px;
+}
+
+.log-output {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #1e1e1e;
+  color: #0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.log-content {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.btn-close-log {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

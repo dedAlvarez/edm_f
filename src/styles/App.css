@@ -1,0 +1,45 @@
+.waiting-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw; /* 👈 asegúrate de que use todo el ancho */
+  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box; /* 👈 evita que el padding reduzca el tamaño */
+}
+
+.waiting-screen h1 {
+  font-size: 32px;
+  color: #1e3a8a;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.waiting-screen p {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.login-button {
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #6366f1, #7c3aed);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.4);
+}
+
+.login-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.5);
+}

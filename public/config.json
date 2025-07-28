@@ -1,0 +1,15 @@
+{
+    "clientId": "d8e50a07-9a4e-4a4d-a2fd-d8819ac706ce",
+    "tenantId": "eccd902d-67db-4830-8a33-740b42759700",
+    "redirectUri": "http://localhost:5173/",   
+    "apiSeguridad": "https://apisegqa.vantrustcapital.cl",
+    "apiIntegrador": "https://apiconsolaadmqa.vantrustcapital.cl",
+    "apiKeySeguridad": "6CBxzdYcEgNDrRhMbDpkBF7e4d4Kib46dwL9ZE5egiL0iL5Y3dzREUBSUYVUwUkN",
+    "apiKeyIntegrador": "N3v3rG0nnaG1v3Y0uUp-9f8e42b7-4c21-420a-b71f-bc2e13f9b1ca",
+    "etl": {
+      "usuario": "admin",
+      "password": "password"
+    },
+    "apiKeyPm2": "N3v3rG0nnaG1v3Y0uUp-9f8e42b7-4c21-420a-b71f-bc2e13f9b1ca"
+  }
+  
