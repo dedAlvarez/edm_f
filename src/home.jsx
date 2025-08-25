@@ -7,6 +7,10 @@ import NEGOCIO from './pages/Negocio';
 import Integrador from './pages/Integrador';
 import ETL from './pages/ETL';
 import ProcesosNode from './pages/ProcesosNode';
+import Indices from './pages/reportes/Indices';
+import PUNTAS_RV from './pages/Renta_Variable/Puntas_RV';
+import Oportunidades_Arbitraje from './pages/Renta_Variable/Oportunidades_Arbitraje';
+import Buscador_logs from './pages/logs/Buscador_Logs';
 
 export default function HomePage() {
   const config = useConfig();
@@ -32,7 +36,11 @@ export default function HomePage() {
     "NEGOCIO": NEGOCIO,
     "INTEGRADOR": Integrador,
     "ETL": ETL,
-    'PROCESOSNODE': ProcesosNode
+    'PROCESOSNODE': ProcesosNode,
+    "INDICES": Indices,
+    "PUNTAS RV": PUNTAS_RV,
+    "OPORTUNIDADES DE ARBITRAJE":Oportunidades_Arbitraje,
+    "BUSCADOR DE LOGS": Buscador_logs
   };
 
   useEffect(() => {

@@ -4,12 +4,20 @@
     "redirectUri": "http://localhost:5173/",   
     "apiSeguridad": "https://apisegqa.vantrustcapital.cl",
     "apiIntegrador": "https://apiconsolaadmqa.vantrustcapital.cl",
+    "apilog": "http://192.168.1.101:3002",
     "apiKeySeguridad": "6CBxzdYcEgNDrRhMbDpkBF7e4d4Kib46dwL9ZE5egiL0iL5Y3dzREUBSUYVUwUkN",
     "apiKeyIntegrador": "N3v3rG0nnaG1v3Y0uUp-9f8e42b7-4c21-420a-b71f-bc2e13f9b1ca",
+    "apiKeylog": "6CBxzdYcEgNDrRhMbDpkBF7e4d4Kib46dwL9ZE5egiL0iL5Y3dzREUBSUYVUwUkN",
     "etl": {
       "usuario": "admin",
-      "password": "password"
+      "password": "password",
+      "repositorio": "QA", 
+      "ruta": "/home/ODS/MALLAS/QUERY_CORREOS", 
+      "job": "QUERY_CORREOS_MALLA",
+      "descripcion": "índices contables",
+      "Id_envio": "1"
     },
-    "apiKeyPm2": "N3v3rG0nnaG1v3Y0uUp-9f8e42b7-4c21-420a-b71f-bc2e13f9b1ca"
+    "apiKeyPm2": "N3v3rG0nnaG1v3Y0uUp-9f8e42b7-4c21-420a-b71f-bc2e13f9b1ca",
+    "ReloadTimeRV":"3000"
   }
   

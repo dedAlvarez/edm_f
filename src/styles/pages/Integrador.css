@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  justify-content: space-between
 }
 
 .combo-select {
@@ -102,7 +103,7 @@
 .mensaje-flotante.info {
   background-color: #e7f3fe;
   color: #31708f;
-  border-left: 6px solid #2196F3;
+  border-left: 6px solid #003366;
   padding: 10px;
   border-radius: 4px;
 }
